@@ -31,6 +31,10 @@ elseif($_GET['page']=='muki'){
 	include 'mod/ms_kepegawaian/jabatan.php';
 }
 
+elseif($_GET['page']=='pegawai'){
+	include 'mod/pegawai/pegawai.php';
+}
+
 
 else{
 	include 'error.php';
